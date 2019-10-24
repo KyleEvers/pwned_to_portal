@@ -6,6 +6,10 @@ Converts the output from checkpwnedemails.py to CSV for pentest portal or output
 
 'pwned_to_portal' uses python3
 
+## Requirements ##
+
+'pwned_to_portal' requires docopt
+
 ### pwned_to_portal Usage and Examples ###
 
 ```bash
