@@ -39,7 +39,6 @@ class ReconColumns(IntEnum):
         return self.value
 
 def parse_email(args):
-    print(args)
     regex = re.compile('....-..-..')        # Search for date in row, periods are wildcards
     if(args['--output']):
         f = open(args['--output'], 'w')
